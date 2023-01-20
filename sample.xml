@@ -1,1 +1,113 @@
-{  "name": "Mike Smith Physician Agreement",  “ date_signed”: “August 1, 2021”,  "term": {    "start_date": "August 1, 2021",    "end_date": "August 1, 2022",    "extension": true  },  "indemnity_provision": {    "tail_coverage": {      "requirement": true    },    "severance_clause": {      "amount": "$1000",      "duration": 6    },    "non_compete": {           "radius": 50,      "duration": 12,      "similarity": "Family Practice",      "type": "Exclusive"    }  },  "call_coverage": {    "requirement": false  },  "benefits": {    "health_insurance": {      "types": ["HMO","PPO","POS","etc."],      "matching_contribution": 50    },    "401K": {      "types": ["Traditional", "Roth", "Etc ."],      "matching_contribution": 100     }  },  "responsibilities": [list_of_responsibilites],  "compensation": {    "minimum": 40000,    "maximum": 80000,    "fixed_versus_variable": "Fixed",    "performance_metrics": [list_of_performance_metrics],    "type": "Fee-for-Service",    "incentives": [list_of_incentives],    "bonus_structure": {      "minimum": 5000,      "maximum": 10000    }  },  "time_off": {    "paid_or_unpaid": ["paid","unpaid "],    "details": {      "vacation_days": number,      "sick_days": number,      "holidays": [list_of_holidays]    }  },  "recourse": [list_of_recourse],  "optional_fields": {    "specialty": [list_ of_specialties],    "practice_setting": ["academic", "hospital", "office_based", "community", "urgent_care"],    "geographic_area": ["urban","suburban","rural"],    "location": "Smithtown, TX",    "professional_liability_coverage": true,    "concierge": false  } }
+{
+   "contract":{
+      "name":"Mike Smith Physician Agreement",
+      "date_signed":"August 1, 2021",
+      "term":{
+         "start_date":"August 1, 2021",
+         "end_date":"August 1, 2022",
+         "extension":true
+      },
+      "indemnity_provision":{
+         "tail_coverage":{
+            "requirement":true
+         },
+         "severance_clause":{
+            "amount":1000,
+            "duration":6
+         },
+         "non_compete":{
+            "radius":50,
+            "duration":12,
+            "similarity":"Family Practice",
+            "type":"Exclusive"
+         }
+      },
+      "call_coverage":{
+         "requirement":false
+      },
+      "benefits":{
+         "health_insurance":{
+            "types":[
+               "HMO",
+               "PPO",
+               "POS",
+               "etc."
+            ],
+            "matching_contribution":50
+         },
+         "401K":{
+            "types":[
+               "Traditional",
+               "Roth",
+               "Etc."
+            ],
+            "matching_contribution":100
+         }
+      },
+      "responsibilities":[
+         "Treat patients",
+         "Document patient visits",
+         "Perform follow-up care",
+         "Collaborate with other healthcare professionals"
+      ],
+      "compensation":{
+         "minimum":40000,
+         "maximum":80000,
+         "fixed_versus_variable":"Fixed",
+         "performance_metrics":[
+            "Patient satisfaction  scores",
+            "Number of patients seen",
+            "Number of procedures performed"
+         ],
+         "type":"Fee-for-Service",
+         "incentives":[
+            "Patient referrals",
+            "Quality of care performance"
+         ],
+         "bonus_structure":{
+            "minimum":5000,
+            "maximum":10000
+         }
+      },
+      "time_off":{
+         "paid_or_unpaid":[
+            "paid",
+            "unpaid"
+         ],
+         "details":{
+            "vacation_days":"10",
+            "sick_ days":"5",
+            "holidays":[
+               "Christmas Day",
+               "New Year's Day",
+               "Memorial Day"
+            ]
+         }
+      },
+      "recourse":[
+         "Option to renew agreement",
+         "Option to reassign contract"
+      ],
+      "optional_fields":{
+         "specialty":[
+            "Family Medicine",
+            "Emergency Medicine",
+            "Internal Medicine"
+         ],
+         "practice_setting":[
+            "academic",
+            "hospital",
+            "office_based",
+            "community",
+            "urgent_care"
+         ],
+         "geographic_area":[
+            "urban",
+            "sub urban",
+            "rural"
+         ],
+         "location":"Smithtown, TX",
+         "professional_liability_coverage":true,
+         "concierge":false
+      }
+   }
