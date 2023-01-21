@@ -9,6 +9,8 @@ Optional fields are also included and provide physicians with a way to add more 
 
 This data model is built with a focus on physicians and other similar medical professionals. It is meant to provide them with comprehensive information  about the contract so that they can confidently enter into and benefit from it.
 
+This will be used to power Andwise's physician employment contract analyzer - https://blog.joinandwise.com/?p=contract-analyzer
+
 Field Name | Data Type | Description | Example 
 --- | --- | --- | ---
 contract.name | string | Name of agreement | "Mike Smith Physician Agreement"
