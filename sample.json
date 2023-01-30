@@ -108,6 +108,31 @@
          ],
          "location":"Smithtown, TX",
          "professional_liability_coverage":true,
-         "concierge":false
+         "concierge":false,
+         "productivity_threshold":50000,
+         "non-clinical_duties":[
+            "Filing patient records",
+            "Attending meetings",
+            "Administrative duties"
+         ],
+         "overtime":true,
+         "travel":false,
+         "physician_back_up":true,
+         "referral_incentive":200,
+         "benefits_details":"Health, dental, and vision insurance; 401K retirement plan; life insurance",
+         "referral_threshold":10,
+         "hours_of_work":40,
+         "training":"Board certification review course",
+         "terminations":"30 days notice required",
+         "incentive_structure":"Performance bonus based on productivity",
+         "signing_bonus":5000,
+         "production_type":"Work RVU",
+         "bonus_rate":0.06,
+         "bonus_threshold":10000,
+         "relocation_bonus":10000,
+         "tail_coverage":"Employer Paid",
+         "CME_time":4,
+         "CME_allowance":10000
       }
    }
+}
