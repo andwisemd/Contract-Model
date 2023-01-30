@@ -39,9 +39,9 @@ contract.compensation.type | string | Type of compensation | "Fee-for-Service"
 contract.compensation.incentives | array | List of incentives | [list _of_incentives] 
 contract.compensation.bonus_structure.minimum | number | Minimum bonus | 5000 
 contract.compensation.bonus_structure.maximum | number | Maximum bonus | 10000 
-contract.time_off.paid_or_unpaid | array | Paid or unpaid time off |["paid","unpaid "] 
-contract.time_off.details.vacation_days | number | Vacation days available | number 
-contract.time_off.details.sick_days | number | Sick  days available | number 
+contract.time_off.paid_or_unpaid | array | Paid or unpaid time off |["paid","unpaid"] 
+contract.time_off.details.vacation_days | number | Vacation days available | 10 
+contract.time_off.details.sick_days | number | Sick days available | 10 
 contract.time_off.details.holidays | array | List of holidays | [list_of_holidays] 
 contract.recourse | array | List of recourse | [list_of_recourse]
 contract.optional_fields.specialty | array | List of specialties | [list_of_specialties]
@@ -50,3 +50,23 @@ contract.optional_fields.geographic_area | array | Geographic area | ["urban","s
 contract.optional_fields.location | string | Location of practice | "Smithtown, TX"
 contract.optional_fields.professional_liability_coverage | boolean | Whether professional liability coverage is required | true
 contract.optional_fields.concierge | boolean | Whether concierge is available | false
+contract.optional_fields.productivity_threshold | Number | The amount of revenue the physician must generate in order to receive additional compensation | 50000
+contract.optional_fields.non-clinical_duties | Array | Array of non-clinical duties that the physician is expected to perform | ["Filing patient records", "Attending meetings", "Administrative duties"]
+contract.optional_fields.overtime | Boolean | Whether the physician is expected to work overtime | true
+contract.optional_ fields.travel | Boolean | Whether the physician is expected to travel for work | false
+contract.optional_fields.physician_back_up | Boolean | Whether the physician is expected to provide back-up coverage for other physicians | true
+contract.optional_fields.referral _incentive | Number | The amount of money the physician earns for each referral | 200
+contract.optional_fields.referral_threshold | Number | The minimum number of referrals the physician must make to earn an incentive |  10
+contract.optional_fields.hours_of_work | Number | The number of hours the physician is expected to work each week | 40
+contract.optional_fields.benefits_details  | String | Details of benefits package | "Health Insurance, 401k, etc.”
+contract.optional_fields.training | String | Details of any training offered or required | "Board certification review course”
+contract.optional_fields.termination | String | Details of the termination process for both employer and employee | "30 days notice required”
+contract.optional_fields.incentive_structure | String | Details of the incentive structure for the physician | "Performance bonus based on productivity”
+contract.optional_fields.signing_bonus | Number | The amount of the signing bonus | 5000
+contract.optional_fields.production_type | String | The type of production bonus: Work RVU or Total Collection | "Work RVU”
+contract.optional_fields.bonus_rate | Number | The amount of the bonus rate for the production bonus | 0.06
+contract.optional_fields.bonus_threshold | Number | The minimum amount required for the physician to receive a bonus | 10000
+contract.optional_fields.relocation_bonus | Number | The amount of the relocation bonus | 10000
+contract.optional_fields.tail_coverage | String | The type of tail coverage: Employee Paid, Shared Cost, or Employer Paid  | "Employer Paid”
+contract.optional_fields.CME_time | Number | The number of weeks of CME time | 4
+contract.optional_fields.CME_allowance | Number | The CME allowance in dollars | 10000
