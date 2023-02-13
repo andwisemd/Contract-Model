@@ -1,113 +1,134 @@
 {
-  "contract": {
-    "required_fields": {
-      "base_salary": {
-        "amount": 500000,
-        "frequency": "yearly"
+   "Title":"Physician Employment Contract",
+   "Parties":[
+      {
+         "Name":"Employer",
+         "Address":"123 Main Street, Anytown, USA"
       },
-      "bonus_structure": "performance-based",
-      "vacation_policy": {
-        "paid_days": "14",
-        "unpaid_days": "14"
+      {
+         "Name":"Provider",
+         "Address":"123 Main Street, Anytown, USA"
+      }
+   ],
+   "Compensation":{
+      "Salary":{
+         "Amount":"$100,000",
+         "Frequency":"Annually"
       },
-      "contract_term": {
-        "duration_in_months": 12
+      "Bonuses":{
+         "Amount":"Up to 10% of salary",
+         "Frequency":"Annually"
       },
-      "physician_license_state": "TX",
-      "physician_board_certified": true,
-      "specialty": "General Practice",
-      "practice_location": "Texas"
-    },
-    "optional_fields": {
-      "bonuses": {
-        "signing_bonus": {
-          "amount": 500,
-          "payment_method": "one-time"
-        },
-        "relocation_bonus": {
-          "amount": 5000,
-          "payment_method": "one-time"
-        },
-        "referral_incentive": {
-          "amount": 20,
-          "threshold": 10
-        }
+      "Relocation_Reimbursement":{
+         "Amount":"$1,000",
+         " Payment_Method":"Check"
+      }
+   },
+   "Benefits":{
+      "Health_Insurance":{
+         "Premium":"$200/month",
+         "Frequency":"Monthly",
+         "Maximum_Out_of_Pocket_Expense":"$2,000"
       },
-      "benefits": {
-        "health_insurance": true,
-        "401k": true,
-        "pension_plan": true,
-        "life_insurance": true,
-        "maternity_paternity_leave": true,
-        "tuition_reimbursement": true
+      "Vacation":{
+         "Minimum_Amount":"2 weeks",
+         "Additional_Accrued_Days":"1 day/90 days of full-time work"
       },
-      "training": [
-        "Board certification review course"
-      ],
-      "termination": {
-        "notice_period_days": "60",
-        "voluntary_termination_days": "45"
+      "Retirement":{
+         "401k_Contribution":"Up to 6% of salary",
+         "Vesting_Schedule":[
+            "25% vested after 24 months of service",
+            "50% vested after 36 months of service",
+            "100% vested after 48 months of service"
+         ]
       },
-      "overtime": true,
-      "travel": false,
-      "physician_back_up": "On call",
-      "call_frequency": [
-        "Weekends",
-        "Evenings"
-      ],
-      "incentive_structure": "Productivity based on RVUs",
-      "production_type": "Work RVU",
-      "bonus_rate": 0.05,
-      "bonus_threshold": 2000,
-      "CME_time": {
-        "period": "3 weeks"
+      "Meals_and_Travel":{
+         "Meal_Reimbursements":{
+            "Amount":"$50/day",
+            " Maximum_Reimbursement_Annually":"$10,000"
+         },
+         "Reimbursement_Cap":[
+            "$2,000"
+         ],
+         "CME_Requirements":[
+            "Completion of 2 hours of CME per month",
+            "Attendance at 2 seminars of CME per year",
+            "Attendance at 3 conferences  per year"
+         ]
       },
-      "CME_allowance": {
-        "amount": 5000,
-        "payment_method": "annual"
+      "Other_Benefits":{
+         "Continuing_Medical_Education":[
+            "Completion of 2 hours of CME per month",
+            "Attendance at 2 seminars of CME per year",
+            "Attendance at 3 conferences  per year"
+         ],
+         "Relocation_Reimbursement":[
+            "Up to $1,000"
+         ],
+         "Crew_Insurance":[
+            "Up to $250,000 coverage for medical and liability costs for staff"
+         ],
+         "Malpractice_Insurance":[
+            "Up to $1 million coverage for malpractice liability costs"
+         ]
+      }
+   },
+   "Obligations_of_Parties":{
+      "Duties_Of_Provider":{
+         "Primary":[
+            "Provide medical care to patients"
+         ],
+         "Secondary":[
+            "Complete medical records and paperwork"
+         ]
       },
-      "eligibility_for_partnership": true,
-      "termination_upon_death_or_disability": true,
-      "termination_for_cause_by_clinic": true,
-      "termination_for_cause_by_physician": {
-        "terms": "Breach of contract and electing not to cure in sixty days"
+      "Travel_Reimbursement":{
+         "Eligibility_Criteria":"Willingness to travel more than 25 miles from the provider's primary office location, with advanced written notice from the employer",
+         " Reimbursement_Amount":"$50/day",
+         "Reimbursement_Cap":"$2,000"
       },
-      "physician_representations_and_warranties": true,
-      "mentoring_opportunities": true,
-      "malpractice_insurance": {
-        "type": "tail",
-        "covered": true,
-        "limit": "3 million"
+      "Prescription_Writing":{
+         "Eligibility_Criteria":[
+            "Must be licensed to practice medicine in the jurisdiction",
+            "Prescription must be medically necessary"
+         ],
+         "Exclusions":[
+            "Cannot prescribe controlled substances"
+         ]
       },
-      "recruitment_fee": {
-        "amount": 1000,
-        "payment_method": "monthly installments"
+      "Non-Compete ":{
+         "Eligibility_Criteria":[
+            "Cannot compete within 50 miles of employer address"
+         ],
+         "Duration":"2 years"
       },
-      "clinic_support_staff": [
-        "RN",
-        "PA",
-        "MA"
-      ],
-      "funding_for_start_up": true,
-      "bonus_structure_based_on_quality_metrics": true,
-      "contribution_to_pension_plan": true,
-      "flex_time_schedules": true,
-      "compensation_for_additional_duties": true,
-      "professional_development_opportunities": true,
-      "reimbursement_for_continuing_medical_education_costs": true,
-      "performance_based_bonus_structure": true,
-      "retirement_benefits_provisions": true,
-      "dispute_resolution_provisions": true,
-      "non-compete_provisions": true,
-      "severance_provisions": true,
-      "professional_liability_insurance_provisions": true,
-      "work_hours_provisions": true,
-      "paid/unpaid_leave_provisions": true,
-      "par/non-par_health_ insurance_provisions": true,
-      "confidentiality_provisions": true,
-      "non-solicitation_provisions": true,
-      "regulatory_and_licensing_compliance_requirements": true,
-      "indemnity_provisions": true
-    }
-  }
+      "Confidentiality":{
+         "Obligations":[
+            "Provider must keep employer information confidential and not use it for personal gain"
+         ]
+      },
+      "Non-Solicitation":{
+         "Obligations":[
+            "Provider must not recruit away any of the employer's employees, subcontractors, customers, or clients"
+         ]
+      },
+      "Termination_of_Employment":{
+         "Conditions":[
+            "Termination can only be done with 30 days written notice by either party"
+         ],
+         "Obligations":[
+            "Provider must return all property and information to the employer upon termination"
+         ]
+      },
+      "Dispute_Resolution":{
+         "Process":[
+            "Any disputes between the parties must be resolved through binding arbitration"
+         ]
+      },
+      "Applicable_Law":{
+         "Applicable":[
+            "The contract, and any disputes between the parties, will be governed by the laws of the state in which the employer is located"
+         ]
+      }
+   }
 }
