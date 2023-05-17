@@ -14,4 +14,6 @@
     * [Financial Impacts of Non-Compete Clauses](introduction-to-physician-employment-contracts/understanding-the-financial-implications-of-your-physician-employment-contract/financial-impacts-of-non-compete-clauses.md)
     * [On-Call Requirements and their Financial Implications](introduction-to-physician-employment-contracts/understanding-the-financial-implications-of-your-physician-employment-contract/on-call-requirements-and-their-financial-implications.md)
   * [⚖ Handling Disputes About Your Physician Employment Contract](introduction-to-physician-employment-contracts/handling-disputes-about-your-physician-employment-contract.md)
-  * [📋 Physician Employment Contract Data Model](<README (1).md>)
+  * [📋 Physician Employment Contract Data Model](introduction-to-physician-employment-contracts/readme/README.md)
+    * [Employment Contract API Documentation](introduction-to-physician-employment-contracts/readme/employment-contract-api-documentation.md)
+    * [Employment Contract PDF Parsing API Documentation](introduction-to-physician-employment-contracts/readme/employment-contract-pdf-parsing-api-documentation.md)
