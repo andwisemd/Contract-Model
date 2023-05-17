@@ -8,12 +8,6 @@ description: >-
 
 ![Financial Implications Flowchart](https://showme.redstarplugin.com/s/7J0EUFyK)
 
-Sure! Here's the revised version of the page:
-
-## Understanding Your Physician Contract: Key Financial Considerations
-
-When reviewing your physician contract, it's crucial to understand the various financial aspects that can significantly impact your overall compensation and financial well-being. Here are key considerations to keep in mind:
-
 ### Compensation
 
 * **Understand Your Compensation Structure:** Familiarize yourself with your base salary, bonuses, and any profit-sharing or equity arrangements. It's important to have a clear understanding of how your compensation is calculated and when you can expect to receive payments.
