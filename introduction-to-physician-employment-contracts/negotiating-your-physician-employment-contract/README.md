@@ -5,7 +5,7 @@ description: >-
   negotiation.
 ---
 
-# Negotiating Your Physician Employment Contract
+# 💪 Negotiating Your Physician Employment Contract
 
 ![Negotiation Flowchart](https://showme.redstarplugin.com/s/2SFvI2QV)
 

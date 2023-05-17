@@ -4,7 +4,7 @@ description: >-
   guidance on handling disputes related to your contract.
 ---
 
-# Handling Disputes in Your Physician Employment Contract
+# Handling Disputes About Your Physician Employment Contract
 
 
 
