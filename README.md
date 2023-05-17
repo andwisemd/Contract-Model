@@ -1,198 +1,217 @@
-# Physician Employment Contract Data Model
+# 📋 Physician Employment Contract Data Model
+
 Physician employment contracts can be complex and difficult to navigate. This project aims to simplify the process by providing a standardized data model and a user-friendly web application that allows physicians to easily compare various contracts and negotiate better terms. With the help of AI-powered contract analysis, physicians can focus on their career goals and personal preferences while making informed decisions. This repository contains the physician employment contract data model, designed to support side-by-side comparisons and contract negotiation assistance for physicians.
 
-This will be used to power Andwise's physician employment contract analyzer - https://blog.joinandwise.com/?p=contract-analyzer
+This will be used to power Andwise's [physician employment contract analyzer.](https://blog.joinandwise.com/?p=contract-analyzer)
 
 ## Data Model Structure
+
 The data model consists of the following elements:
+
 * Employment contract attributes (e.g., salary, benefits, work hours)
 * Contract provisions (e.g., non-compete clause, termination provisions)
 
 The data model is designed to be easily extensible and adaptable to accommodate changes in contract formats and industry standards.
 
 ## Next Steps
+
 1. An AI-powered contract analysis tool that extracts key data points from contracts
 2. A web application that enables physicians to upload, view, and compare contracts
 3. Advanced search and filtering capabilities within the web application
 4. A contract negotiation support feature providing personalized recommendations
 
-## Contributing
-We welcome contributions from the community to improve the Physician Employment Contract Data Model and its associated tools. If you'd like to contribute, please follow these steps:
-1. Fork the repository on GitHub and create a local clone on your machine.2. Create a new branch with a descriptive name to keep track of your changes.
-2. Make your changes to the data model or related tools, ensuring proper markdown formatting and adherence to the guidelines provided.
-3. Commit your changes with a descriptive commit message, detailing the changes you made and the reasons behind them.
-4. Push your changes to your forked repository on GitHub.
-5. Open a pull request, explaining your changes and why they should be merged into the main repository.
-6. Collaborate with the maintainers to address any revisions or feedback.
-
-Once approved, your changes will be merged into the main repository.
-
-Employment Details
-------------------
+## Employment Details
 
 ### Basic Information
--   emp_type
--   partnership_track
--   term_prov
--   contract_dur_renew
+
+* emp\_type
+* partnership\_track
+* term\_prov
+* contract\_dur\_renew
 
 ### Employment Status and Setting
--   emp_status
--   prac_size
--   prac_spec
--   prac_set
+
+* emp\_status
+* prac\_size
+* prac\_spec
+* prac\_set
 
 ### Compensation
--   guar_base_sal
--   inc_bonus
--   profit_share
--   stock_opts
--   perf_bonus
--   ann_raise
--   ret_bonus
+
+* guar\_base\_sal
+* inc\_bonus
+* profit\_share
+* stock\_opts
+* perf\_bonus
+* ann\_raise
+* ret\_bonus
 
 ### Work Schedule
--   work_hours_sched_req
--   call_sched
--   flex_sched
--   remote_work
 
-Benefits
---------
+* work\_hours\_sched\_req
+* call\_sched
+* flex\_sched
+* remote\_work
+
+## Benefits
 
 ### Time Off
--   vac_days
--   sick_days
--   holidays
--   pers_leave
--   parental_leave
--   bereave_leave
--   sabb_leave
+
+* vac\_days
+* sick\_days
+* holidays
+* pers\_leave
+* parental\_leave
+* bereave\_leave
+* sabb\_leave
 
 ### Insurance Coverage
--   health_ins
--   dental_ins
--   vision_ins
--   life_ins
--   disability_ins
--   malpractice_cov
--   prof_liab_ins
--   pet_ins
+
+* health\_ins
+* dental\_ins
+* vision\_ins
+* life\_ins
+* disability\_ins
+* malpractice\_cov
+* prof\_liab\_ins
+* pet\_ins
 
 ### Retirement and Financial Benefits
--   retire_benefits
--   retire_plan
--   health_sav_acct
--   loan_repay_assist
--   flex_spend_acct
--   tuition_reimb
--   student_loan_assist
+
+* retire\_benefits
+* retire\_plan
+* health\_sav\_acct
+* loan\_repay\_assist
+* flex\_spend\_acct
+* tuition\_reimb
+* student\_loan\_assist
 
 ### Professional Development and Education
--   cont_edu_allow
--   cme_days
--   prof_devel
--   mentor_prog
--   clin_research_opp
--   fac_appointment
--   paid_prof_devel
+
+* cont\_edu\_allow
+* cme\_days
+* prof\_devel
+* mentor\_prog
+* clin\_research\_opp
+* fac\_appointment
+* paid\_prof\_devel
 
 ### Workplace Support-
--   ancillary_staff
--   med_license_exp
--   dea_license_exp
--   board_cert_exp
--   member_dues
--   promo_opp
--   med_director
--   comm_outreach
+
+* ancillary\_staff
+* med\_license\_exp
+* dea\_license\_exp
+* board\_cert\_exp
+* member\_dues
+* promo\_opp
+* med\_director
+* comm\_outreach
 
 ### Wellness and Work-Life Balanc
--   wellness_prog
--   emp_assist_prog
--   emp_discounts
--   paid_parent_leave
--   childcare_assist
--   work_from_home
--   telemed_opp
--   pet_friendly_work
--   casual_dress
--   gym_memb
--   lunch_ben
--   parking_ben
--   commute_assist
 
-##Legal and Contractual Provisions
+* wellness\_prog
+* emp\_assist\_prog
+* emp\_discounts
+* paid\_parent\_leave
+* childcare\_assist
+* work\_from\_home
+* telemed\_opp
+* pet\_friendly\_work
+* casual\_dress
+* gym\_memb
+* lunch\_ben
+* parking\_ben
+* commute\_assist
+
+\##Legal and Contractual Provisions
+
 ### Non-Compete and Other Agreements
--   non_comp_clause
--   non_solicit_agree
--   conf_non_disclosure_agree
--   IP_rights
+
+* non\_comp\_clause
+* non\_solicit\_agree
+* conf\_non\_disclosure\_agree
+* IP\_rights
 
 ### Termination and Severance
--   term_sev_prov
--   dispute_res_proc
+
+* term\_sev\_prov
+* dispute\_res\_proc
 
 ### Credentialing and Hospital Privileges
--   credential_hosp_priv
+
+* credential\_hosp\_priv
 
 ### Partnership and Ownership Opportunities
--   partnership_buy_in_out
--   ownership_equity_opp
+
+* partnership\_buy\_in\_out
+* ownership\_equity\_opp
 
 ### Compensation Structure and Payment Frequency
--   comp_struct_pay_freq
--   reimb_exp_overhead
+
+* comp\_struct\_pay\_freq
+* reimb\_exp\_overhead
 
 ### Reporting Structure and Supervision
--   report_struct_superv
--   prof_growth_career_adv_opp
--   leader_opp
--   diversity_inclusivity_initiatives
--   cult_compet_train
--   team_building_activities
+
+* report\_struct\_superv
+* prof\_growth\_career\_adv\_opp
+* leader\_opp
+* diversity\_inclusivity\_initiatives
+* cult\_compet\_train
+* team\_building\_activities
 
 ### Performance Evaluation and Feedback
--   perf_eval_criteria
--   perf_eval_freq
--   peer_feedback
--   ongoing_mentorship
+
+* perf\_eval\_criteria
+* perf\_eval\_freq
+* peer\_feedback
+* ongoing\_mentorship
 
 ### Relocation Assistance and Signing Bonuses
--   reloc_assist
--   sign_bonus
 
-##Miscellaneous Provisions
+* reloc\_assist
+* sign\_bonus
+
+\##Miscellaneous Provisions
+
 ### Appendix and Supporting Documents
--   appendix_docs
--   contract_amendments
+
+* appendix\_docs
+* contract\_amendments
 
 ### Governing Law and Jurisdiction
--   governing_law
--   jurisdiction
+
+* governing\_law
+* jurisdiction
 
 ### Force Majeure and Unforeseen Circumstances
--   force_majeure
--   unforeseen_circumstances
+
+* force\_majeure
+* unforeseen\_circumstances
 
 ### Indemnification and Liability
--   indemnification
--   liability
+
+* indemnification
+* liability
 
 ### Notice and Communication
--   notice_communication
--   contact_info
--   communication_methods
+
+* notice\_communication
+* contact\_info
+* communication\_methods
 
 ### Entire Agreement and Amendment
--   entire_agreement
--   amendment_clause
+
+* entire\_agreement
+* amendment\_clause
 
 ### Arbitration and Mediation
--   arbitration_clause
--   mediation_clause
+
+* arbitration\_clause
+* mediation\_clause
 
 ### Waiver of Breach
--   waiver_breach_clause
+
+* waiver\_breach\_clause
 
 Thank you for your interest in contributing to the Physician Employment Contract Data Model! Together, we can help physicians navigate the complex world of employment contracts and make better-informed decisions for their careers.
