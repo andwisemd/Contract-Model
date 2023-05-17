@@ -1,4 +1,4 @@
-# Location Clauses in Physician Contracts: What You Need to Know
+# Location Clauses
 
 ![Location Clause Negotiation Flowchart](https://showme.redstarplugin.com/s/1NVxdXDb)
 

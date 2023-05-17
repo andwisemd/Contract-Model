@@ -1,4 +1,4 @@
-# Understanding and Negotiating Outside Employment Clauses
+# Outside Employment Clauses
 
 ![Outside Employment Negotiation Flowchart](https://showme.redstarplugin.com/s/j0a5ux0A)
 

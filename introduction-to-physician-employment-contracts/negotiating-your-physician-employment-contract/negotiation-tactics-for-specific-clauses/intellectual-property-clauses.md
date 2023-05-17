@@ -1,4 +1,4 @@
-# Navigating Intellectual Property Clauses
+# Intellectual Property Clauses
 
 ![Intellectual Property Negotiation Flowchart](https://showme.redstarplugin.com/s/yvCZewxH)
 

@@ -1,4 +1,4 @@
-# On-Call Requirements in Physician Contracts: A Guide to Fair Negotiation
+# On-Call Requirements
 
 ![On-Call Requirement Negotiation Flowchart](https://showme.redstarplugin.com/s/uB99MlgD)
 
