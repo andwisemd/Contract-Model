@@ -2,6 +2,24 @@
 
 ![Outside Employment Negotiation Flowchart](https://showme.redstarplugin.com/s/j0a5ux0A)
 
+```mermaid
+graph TB
+  A["Original Contract Language: 'Physician shall not engage in any other business activity.'"]
+  A --> B["Identify Issue: Restrictive Outside Employment Clause"]
+  B --> C["Research Market Standards for Outside Employment"]
+  C --> D["Formulate Proposal: 'Physician may engage in outside employment that does not interfere with duties at the organization.'"]
+  D --> E["Present Proposal to Employer"]
+  E --> F["Employer's Response: 'We need our physicians to be fully committed to their work here.'"]
+  F -- "Counter Argument" --> G["'My outside projects help me stay engaged and passionate about my work. They provide a creative outlet and often enhance my skills and knowledge.'"]
+  G --> H["Employer's Response"]
+  H -- "Acceptance" --> I["Desired Outcome: 'Physician may engage in outside employment that does not interfere with duties at the organization.'"]
+  H -- "Rejection" --> J["Reformulate Proposal: 'Physician may engage in outside employment with prior approval from the organization.'"]
+  J --> K["Present Revised Proposal"]
+  K --> L["Employer's Response"]
+  L -- "Acceptance" --> I
+  L -- "Rejection" --> J
+```
+
 Physicians often have interests and opportunities outside of their primary employment that contribute to their professional growth and personal fulfillment. However, restrictive outside employment clauses in physician contracts can hinder these activities. This article provides a roadmap for understanding and negotiating more flexible outside employment clauses, empowering
 
 physicians to pursue additional opportunities and achieve a better work-life balance.

@@ -2,6 +2,24 @@
 
 ![On-Call Requirement Negotiation Flowchart](https://showme.redstarplugin.com/s/uB99MlgD)
 
+```mermaid
+graph TB
+  A["Original Contract Language: 'Physician shall be on call as needed.'"]
+  A --> B["Identify Issue: Vague On-Call Requirement"]
+  B --> C["Research Market Standards for On-Call Requirements"]
+  C --> D["Formulate Proposal: 'Physician shall be on call for a specified number of hours per week.'"]
+  D --> E["Present Proposal to Employer"]
+  E --> F["Employer's Response: 'We need flexibility to ensure coverage.'"]
+  F -- "Counter Argument" --> G["'A specified on-call schedule allows me to provide the best care to patients while maintaining a work-life balance.'"]
+  G --> H["Employer's Response"]
+  H -- "Acceptance" --> I["Desired Outcome: 'Physician shall be on call for a specified number of hours per week.'"]
+  H -- "Rejection" --> J["Reformulate Proposal: 'Physician shall be on call for a maximum number of hours per week.'"]
+  J --> K["Present Revised Proposal"]
+  K --> L["Employer's Response"]
+  L -- "Acceptance" --> I
+  L -- "Rejection" --> J
+```
+
 On-call requirements significantly impact physicians' work-life balance, personal time, and overall well-being. Negotiating clear and fair on-call requirements in physician contracts is essential for maintaining a fulfilling professional experience. In this article, we provide a practical roadmap for negotiating on-call requirements that strike a balance between patient care needs and personal well-being, allowing physicians to thrive in their careers and personal lives.
 
 #### Understanding On-Call Requirements

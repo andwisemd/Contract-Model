@@ -2,6 +2,24 @@
 
 ![Intellectual Property Negotiation Flowchart](https://showme.redstarplugin.com/s/yvCZewxH)
 
+```mermaid
+graph TB
+  A["Original Contract Language: 'All intellectual property created during employment belongs to the organization.'"]
+  A --> B["Identify Issue: Restrictive Intellectual Property Clause"]
+  B --> C["Research Market Standards for Intellectual Property"]
+  C --> D["Formulate Proposal: 'Intellectual property created during work hours belongs to the organization, those created during personal time belong to the individual.'"]
+  D --> E["Present Proposal to Employer"]
+  E --> F["Employer's Response: 'We believe that all creations should belong to the organization.'"]
+  F -- "Counter Argument" --> G["'Differentiating between work hours and personal time allows for personal projects while still contributing to the organization.'"]
+  G --> H["Employer's Response"]
+  H -- "Acceptance" --> I["Desired Outcome: 'Intellectual property created during work hours belongs to the organization, those created during personal time belong to the individual.'"]
+  H -- "Rejection" --> J["Reformulate Proposal: 'Intellectual property directly related to the job belongs to the organization, those unrelated belong to the individual.'"]
+  J --> K["Present Revised Proposal"]
+  K --> L["Employer's Response"]
+  L -- "Acceptance" --> I
+  L -- "Rejection" --> J
+```
+
 Intellectual property clauses in physician contracts can be complex and require careful consideration to protect the rights of physicians engaged in creative or innovative activities outside of their clinical work. This article provides a step-by-step guide on how to navigate these clauses effectively, ensuring that physicians retain ownership of their intellectual property and achieve a favorable outcome.
 
 #### Understanding Intellectual Property

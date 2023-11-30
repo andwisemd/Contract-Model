@@ -2,6 +2,24 @@
 
 ![Location Clause Negotiation Flowchart](https://showme.redstarplugin.com/s/1NVxdXDb)
 
+```mermaid
+graph TB
+  A["Original Contract Language: 'Physician shall provide services at any location designated by the organization.'"]
+  A --> B["Identify Issue: Broad Location Clause"]
+  B --> C["Research Market Standards for Location Clauses"]
+  C --> D["Formulate Proposal: 'Physician shall provide services at locations within a reasonable commuting distance.'"]
+  D --> E["Present Proposal to Employer"]
+  E --> F["Employer's Response: 'We need flexibility to assign physicians where they are needed.'"]
+  F -- "Counter Argument" --> G["'A reasonable commuting distance allows me to maintain a work-life balance and provide the best care to patients.'"]
+  G --> H["Employer's Response"]
+  H -- "Acceptance" --> I["Desired Outcome: 'Physician shall provide services at locations within a reasonable commuting distance.'"]
+  H -- "Rejection" --> J["Reformulate Proposal: 'Physician shall provide services at locations agreed upon in advance.'"]
+  J --> K["Present Revised Proposal"]
+  K --> L["Employer's Response"]
+  L -- "Acceptance" --> I
+  L -- "Rejection" --> J
+```
+
 Location clauses in physician contracts play a significant role in determining where you will provide your services. These clauses can have a profound impact on your work-life balance and overall satisfaction. Understanding and negotiating these clauses effectively is crucial for physicians seeking a reasonable and conducive work environment. In this article, we will guide you through the process of negotiating fair and flexible location clauses that meet your needs.
 
 #### Understanding Location Clauses

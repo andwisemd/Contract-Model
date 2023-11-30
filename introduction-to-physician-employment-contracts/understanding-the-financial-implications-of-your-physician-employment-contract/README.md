@@ -6,8 +6,6 @@ description: >-
 
 # 💸 Understanding the Financial Implications of Your Physician Employment Contract
 
-![Financial Implications Flowchart](https://showme.redstarplugin.com/s/7J0EUFyK)
-
 ### Compensation
 
 * **Understand Your Compensation Structure:** Familiarize yourself with your base salary, bonuses, and any profit-sharing or equity arrangements. It's important to have a clear understanding of how your compensation is calculated and when you can expect to receive payments.

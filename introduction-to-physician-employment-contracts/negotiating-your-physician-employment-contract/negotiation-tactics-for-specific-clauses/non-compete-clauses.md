@@ -4,6 +4,24 @@
 
 ![Non-Compete Clause Negotiation Flowchart](https://showme.redstarplugin.com/s/sSXzpHbS)
 
+```mermaid
+graph TB
+  A["Original Contract Language: 'Physician shall not engage in any activities that compete with the organization.'"]
+  A --> B["Identify Issue: Broad Non-Compete Clause"]
+  B --> C["Research Market Standards for Non-Compete Clauses"]
+  C --> D["Formulate Proposal: 'Physician shall not engage in activities that directly compete with the organization in the same geographical area.'"]
+  D --> E["Present Proposal to Employer"]
+  E --> F["Employer's Response: 'We need to protect our business interests.'"]
+  F -- "Counter Argument" --> G["'A more specific non-compete clause allows me to continue growing in my career while still protecting your interests.'"]
+  G --> H["Employer's Response"]
+  H -- "Acceptance" --> I["Desired Outcome: 'Physician shall not engage in activities that directly compete with the organization in the same geographical area.'"]
+  H -- "Rejection" --> J["Reformulate Proposal: 'Physician shall not engage in activities that compete with the organization within a specified radius.'"]
+  J --> K["Present Revised Proposal"]
+  K --> L["Employer's Response"]
+  L -- "Acceptance" --> I
+  L -- "Rejection" --> J
+```
+
 Non-compete clauses in physician contracts can significantly impact physicians' career growth and mobility. These clauses restrict physicians from practicing in certain geographical areas or within specific timeframes after leaving their current employment. Understanding how to handle and negotiate non-compete clauses is essential for preserving professional opportunities and ensuring flexibility. In this article, we provide a step-by-step guide on how to negotiate a fair and reasonable non-compete clause that allows physicians to pursue their career aspirations.
 
 #### Understanding Non-Compete Clauses
